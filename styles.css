@@ -1,0 +1,23 @@
+/* styles.css */
+
+body {
+    background-color: #f9f9e7;
+    font-family: Consolas, "Courier New", monospace;
+}
+
+h1 {
+    color: #e76658;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+p {
+    color: #2D2D23;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    margin: 30px;
+}
