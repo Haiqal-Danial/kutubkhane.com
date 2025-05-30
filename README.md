@@ -1,4 +1,4 @@
-# kutubkhane.com
+# kutubkhane.com (Work In Progress)
 
 ## About
 A personal website where I develop _anything_ I wish. Functions as my portfolio, a platform where I can freely share my thoughts & ideas, and who knows a small online shop?
@@ -6,8 +6,8 @@ A personal website where I develop _anything_ I wish. Functions as my portfolio,
 ## Plans
 
 ### Short-term (< 2 years)
-- Create a UI based on typewriter theme
-- Background to change to a rough paper feel
+- Create a UI based on typewriter theme 🤏🏼
+- Background to change to a rough paper feel ✅
 - Redesign logo? (Nah, I want to stick with the intricate design)
 - Create pages:
   - Home
