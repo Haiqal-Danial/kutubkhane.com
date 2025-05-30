@@ -1,23 +1,33 @@
-/* styles.css */
-
 body {
+    position: absolute;
     background-color: #f9f9e7;
-    font-family: Consolas, "Courier New", monospace;
+    background-image: url("/images/paper.png"); /* Credits:  */
 }
 
 h1 {
-    color: #e76658;
-    font-size: 36px;
+    font-family: "Sixtyfour Convergence", "Consolas", "Courier New", monospace;
+    font-size: 48px;
     line-height: 1.5;
     text-align: center;
     margin-top: 30px;
-    font-weight: bolder;
+    letter-spacing: 5px;
+    word-spacing: 10px;
 }
 
 p {
+    font-family: "Special Elite", "Consolas", "Courier New", monospace;
     color: #2D2D23;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 22px;
+    line-height: 2;
     text-align: left;
-    margin: 30px;
+    margin-left: 370px;
+    margin-right: 370px;
 }
+
+.selfPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #2D2D23 ridge 20px;
+}
+

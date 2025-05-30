@@ -14,7 +14,7 @@ A personal website where I develop _anything_ I wish. Functions as my portfolio,
   - About me
   - A Drop of Knowledge
   - Support me
-  - Linkedin page / social media pages
+  - LinkedIn page / social media pages
   - Projects (draft)
 ### Long-term (> 2 years)
 - Create an small online store
