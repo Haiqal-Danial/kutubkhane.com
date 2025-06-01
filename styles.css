@@ -1,3 +1,5 @@
+/* Color palette: #f9f9e7, #2D2D23, #e76658 */
+
 body {
     position: absolute;
     background-color: #f9f9e7;
@@ -20,8 +22,14 @@ p {
     font-size: 22px;
     line-height: 2;
     text-align: left;
-    margin-left: 370px;
-    margin-right: 370px;
+}
+
+#selfIntro {
+    border: 10px solid #2D2D23;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    padding: 50px;
 }
 
 .selfPic {
