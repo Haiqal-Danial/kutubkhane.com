@@ -1,4 +1,26 @@
-/* Color palette: #f9f9e7, #2D2D23, #e76658 */
+/* Color palette: #f9f9e7, #2D2D23, #e76658, #8e8772 */
+/* Please organise below items, too cluttered */
+@font-face {
+    font-family: "Special Elite";
+    src: url("fonts/SpecialElite-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Sixtyfour Convergence";
+    src: url("fonts/SixtyfourConvergence-Regular-VariableFont_BLED,SCAN,XELA,YELA.ttf");
+}
+
+@font-face {
+    font-family: "Doto";
+    src: url("fonts/Doto-VariableFont_ROND,wght.ttf");
+}
+
+@font-face {
+    font-family: "Monofett";
+    src: url("fonts/Monofett-Regular.ttf");
+}
+
+@import "tailwindcss";
 
 body {
     position: absolute;
@@ -6,7 +28,7 @@ body {
     background-image: url("/images/paper.png"); /* Credits:  */
 }
 
-h1 {
+h1.title {
     font-family: "Sixtyfour Convergence", "Consolas", "Courier New", monospace;
     font-size: 48px;
     line-height: 1.5;
@@ -16,9 +38,49 @@ h1 {
     word-spacing: 10px;
 }
 
-p {
+h1.header {
+    font-family: "Special Elite", "Consolas", "Courier New", monospace;
+    font-size: 48px;
+    line-height: 1.5;
+    margin-top: 30px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    max-width: 200ch; /* Credits: u/SEEYOULHATER */
+    text-align: left; /* Credits: u/SEEYOULHATER */
+}
+
+h2 {
     font-family: "Special Elite", "Consolas", "Courier New", monospace;
     color: #2D2D23;
+}
+
+a.wip {
+    font-family: "Special Elite", "Consolas", "Courier New", monospace;
+    font-size: 48px;
+    line-height: 1.5;
+    margin-top: 30px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+p,ol,li,a {
+    font-family: "Special Elite", "Consolas", "Courier New", monospace;
+    color: #2D2D23;
+    font-size: 22px;
+    word-spacing: 140%;
+    line-height: 2.25;
+    max-width: 200ch; /* Credits: u/SEEYOULHATER */
+    text-align: left; /* Credits: u/SEEYOULHATER */
+}
+
+p.video{
+    line-height: 0;
+    margin-bottom: 15px;
+}
+
+a {
+    font-family: "Special Elite", "Consolas", "Courier New", monospace;
+    color: #e76658;
     font-size: 22px;
     line-height: 2;
     text-align: left;
@@ -36,6 +98,28 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: #2D2D23 ridge 20px;
+    border: #8e8772 ridge 50px;
 }
 
+
+
+/* Paragraphing */
+.para {
+    /* need some property to make it able to do "double spacing" for each first line */
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+hr.dashed {
+    border-top: 10px dashed #2D2D23;
+    font-family: "Special Elite", "Consolas", "Courier New", monospace;
+    /* How to remove the line artefact? */
+}
+
+h3.dnt {
+    margin-left: 300px; 
+    margin-right: 300px;
+    font-family: "Special Elite", "Consolas", "Courier New", monospace;
+    color: #e76658;
+
+}
