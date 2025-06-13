@@ -20,6 +20,8 @@
     src: url("fonts/Monofett-Regular.ttf");
 }
 
+/* Why my fonts not showing up in actual website but only in localhost? */
+
 @import "tailwindcss";
 
 body {
@@ -96,9 +98,8 @@ a {
 
 .selfPic {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     border: #8e8772 ridge 50px;
+    width: 90%;
 }
 
 
